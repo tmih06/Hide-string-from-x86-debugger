@@ -30,7 +30,7 @@ The `no_string` header file can be used to hide strings from x86 debuggers. This
 
 ## Example :
 
-**The normal hello_world.cpp: ** [here](https://github.com/tmih06/Hide-string-from-x86-debugger/blob/main/example/normal.cpp)
+#The normal hello_world.cpp: [here](https://github.com/tmih06/Hide-string-from-x86-debugger/blob/main/example/normal.cpp)
 ```c++
 #include <iostream>
 int main()
@@ -41,7 +41,7 @@ int main()
 # How its look in x86 debugger:
 ![](https://github.com/tmih06/Hide-string-from-x86-debugger/blob/main/img/How%20does%20it%20look%20without%20encrypt.png)
 
-**The hide string hello_world.cpp: **  [here](https://github.com/tmih06/Hide-string-from-x86-debugger/blob/main/example/encrypted.cpp)
+# The hide string hello_world.cpp: **  [here](https://github.com/tmih06/Hide-string-from-x86-debugger/blob/main/example/encrypted.cpp)
 ```c++
 #include "no_string.hpp"
 #include <iostream>
